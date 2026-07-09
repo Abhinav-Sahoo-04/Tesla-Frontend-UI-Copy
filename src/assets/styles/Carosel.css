@@ -1,0 +1,119 @@
+.carosel-wrap{
+    height: 550px;
+    width: 100%;
+    position: relative;
+}
+.carosel{
+    height: 100%;
+    width: 100%;
+    
+}
+.carosel .homepage {
+    height: 100%;
+    width: 100%;
+}
+.carosel .homepage img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+#homepage1{
+    position: relative;
+    display: none;
+
+}
+#homepage2{
+    position: relative;
+}
+#homepage1 .box1,#homepage2 .box2{
+    position: absolute;
+    top:50px;
+    left:36%;
+}
+#homepage1 .box1 .btn-wrap,#homepage2 .box2 .btn-wrap{
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
+#homepage1 .box1 .btn-wrap button,#homepage2 .box2 .btn-wrap button{
+    height: 40px;
+    width: 40%;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn-buy{
+    background-color: royalblue;
+    color: white;
+}
+.btn-buy:hover{
+    background-color:rgb(2, 91, 234);
+}
+
+.info-box{
+    height: 150px;
+    width: 450px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info-box .model-name{
+    width: 100%;
+    grid-area: a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.info-box .model-name h1{
+    line-height: 50px;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+/* .info-box .model-name p{
+    color: white;
+    font-weight: 200;
+} */
+.carosel-wrap .arr{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:50%;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.39);
+    border: none;
+}
+.left-arr{
+    left:100px;
+}
+.right-arr{
+    right:100px;
+}
+.nav-link-indicator{
+    position: absolute;
+    bottom: 30px;
+    left:50%;
+}
+.nav-link-indicator .nav-btn{
+    height: 13px;
+    width: 13px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    font-size: 0px;
+}
+

@@ -1,0 +1,44 @@
+.offer-section{
+    height: 45vh;
+    width: 100%;
+    padding: 20px;
+    display: flex;   
+    column-gap: 20px; 
+}
+.offer-section .left-section,.right-section{
+    height: 100%;
+    width: 50%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    
+}
+.offer-info{
+    height: 100%;
+    width: 70%;
+    padding: 40px;
+}
+.offer-info h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+.offer-info h4{
+    color:rgb(104, 103, 103);
+    font-size: 20px;
+    line-height: 30px;
+
+}
+.offer-info button{
+    height: 40px;
+    width: 250px;
+    border:none;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: white;
+}
+.left-section img,.right-section img{
+    height: 100%;
+    width: 30%;
+    background-size:cover;
+}

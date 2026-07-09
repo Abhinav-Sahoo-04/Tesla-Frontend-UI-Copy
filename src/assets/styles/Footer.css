@@ -1,0 +1,33 @@
+.footer-sec{
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+.footer-sec button{
+    height: 40px;
+    width: fit-content;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border:1px solid rgba(128, 128, 128, 0.559);
+}
+.footer-sec button i{
+    font-size: 25px;
+    margin: 0px 10px;
+}
+#ask-btn{
+    color:rgb(79, 79, 79)
+}
+#test-btn{
+    color: blue;
+}

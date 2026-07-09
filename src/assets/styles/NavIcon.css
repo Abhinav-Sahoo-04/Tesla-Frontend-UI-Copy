@@ -1,0 +1,26 @@
+.nav-icon{
+    height: 160px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.nav-icon img{
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+}
+.nav-icon h1{
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+}
+.nav-icon span a{
+    margin:7px;
+    color: grey;
+    font-weight: 200;
+}
